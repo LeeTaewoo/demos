@@ -6,10 +6,10 @@
 -- 선형 회귀의 매우 간단한 단계별 예제를 제공합니다.
 
 -- 노트: 이 스크립트 실행하려면, 다음 줄을 실행하십시오:
--- torch script.lua
+-- th script.lua
 
 -- 스크립트를 실행하고 쉘과의 상호작용 결과를 얻기 원하면 다음 줄을 실행하십시오:
--- torch -i script.lua
+-- th -i script.lua
 
 -- 먼저 필요한 패키지들을 require합니다.
 -- 노트: optim은 3rd-party 패키지로 따로 설치되어야 합니다.
