@@ -149,7 +149,7 @@ feval = function(x_new)
    -- 수용하기 위해)
    dl_dx:zero()
 
-   -- 그 샘플을 위한, 손실 함수의 값과 그 함수의 x에 대한 편미분값을 계산합니다.
+   -- 그 샘플을 위한, 손실 함수의 값과 그 함수의 x에 대한 편미분 값을 계산합니다.
    local loss_x = criterion:forward(model:forward(inputs), target)
    model:backward(inputs, criterion:backward(model.output, target))
 
