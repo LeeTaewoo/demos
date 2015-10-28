@@ -123,7 +123,7 @@ criterion = nn.MSECriterion()
 
 x, dl_dx = model:getParameters()
 
--- 다음 코드에서, 우리는 한 closure, feval을 정의합니다. 
+-- 다음 코드에서, 우리는 한 closure(함수 안에 정의된 함수), feval을 정의합니다. 
 -- feval은 주어진 시점 x에서의 손실 함수의 값과 x에 대한 그 함수의 
 -- 기울기를 계산합니다. x는 훈련 가능한 가중치들의 벡터입니다.
 -- 그것은, 이 예제에서, 우리 모델의 선형 행렬의 모든 가중치들과
