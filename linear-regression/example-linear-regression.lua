@@ -14,7 +14,7 @@
 -- 먼저 필요한 패키지들을 require합니다.
 -- 노트: optim은 3rd-party 패키지로 따로 설치되어야 합니다.
 -- 이 설치는 Torch7의 패키지 매니저를 사용하여 다음과 같이 쉽게 할 수 있습니다:
--- torch-pkg install optim
+-- luarocks install optim
 
 require 'torch'
 require 'optim'
